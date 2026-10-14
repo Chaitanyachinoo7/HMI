@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e222b"/>
+      <stop offset="100%" stop-color="#111317"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone margin -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="72" fill="none" stroke="#334155" stroke-width="4"/>
+  
+  <!-- Outer Gauge Arc / Synoptic loop -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#2a303c" stroke-width="24"/>
+  <path d="M 143 369 A 160 160 0 1 1 369 369" fill="none" stroke="url(#cyan-glow)" stroke-width="24" stroke-linecap="round"/>
+  
+  <!-- Digital Tag / Sparkline inside -->
+  <path d="M 160 270 L 210 270 L 235 210 L 265 310 L 295 240 L 325 270 L 352 270" fill="none" stroke="#f1f5f9" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Status Indicator Dot -->
+  <circle cx="256" cy="140" r="14" fill="#10b981"/>
+  
+  <!-- Process Valve / Motor Symbol -->
+  <path d="M 230 380 L 282 380 L 256 405 Z M 230 430 L 282 430 L 256 405 Z" fill="#94a3b8"/>
+  <line x1="256" y1="365" x2="256" y2="405" stroke="#94a3b8" stroke-width="6"/>
+  <circle cx="256" cy="360" r="8" fill="#e2e8f0"/>
+</svg>

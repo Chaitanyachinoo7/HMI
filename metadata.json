@@ -1,0 +1,6 @@
+{
+  "name": "AegisHMI - Industrial SCADA & Perspective HMI",
+  "description": "High-performance, open-source industrial HMI and SCADA dashboard compliant with ISA-101 and ISA-18.2 standards with sub-second tag bindings, synoptic P&ID graphics, ECharts trending, and PWA support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
